@@ -1,0 +1,2 @@
+C:\Users\jakea\OneDrive\Escritorio\SDL2_gfx-1.0.4\Win32\Debug\SDL2_gfx.lib
+C:\Users\jakea\OneDrive\Escritorio\SDL2_gfx-1.0.4\Win32\Debug\SDL2_gfx.pdb
