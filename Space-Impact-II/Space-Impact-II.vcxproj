@@ -95,6 +95,9 @@
       <AdditionalLibraryDirectories>..\SDL2-2.0.12\lib\x86;..\SDL2_gfx-1.0.4\Win32\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_gfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy ..\SDL2-2.0.12\lib\x86\SDL2.dll ..\Debug\SDL2.dll</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
