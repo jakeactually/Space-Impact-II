@@ -34,6 +34,8 @@ SDL_Renderer* SDL_StartSurface(Vec2 FrameSize) { /* SDL inicializálása adott k
 }
 
 int main(int argc, char *argv[]) {
+    UncompressFont();
+
     /** SDL inicializálás **/
     Vec2 FrameSize = {84 * UPSCALE_FACTOR, 48 * UPSCALE_FACTOR}; /* A skálázott képkocka méretei */
     SDL_Event e;
